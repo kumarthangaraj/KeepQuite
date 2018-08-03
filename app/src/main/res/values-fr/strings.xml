@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Reste Silencieux</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="from">Démarrer</string>
+    <string name="colon">:</string>
+    <string name="to">à</string>
+    <string name="set">Ensemble</string>
+    <string name="clear">Clair</string>
+    <string name="clearAll">Tout Effacer</string>
+    <string name="daily">Tous les jours</string>
+    <string name="weekly">Hebdomadaire</string>
+    <string name="WeekDaysTitle">Journées</string>
+    <string name="ok">D\’accord</string>
+    <string name="cancel">Annuler</string>
+    <string name="existing">Quites Existants</string>
+    <string name="recordEditorTitle">Que Voulez-vous Ami</string>
+    <string name="edit">Modifier</string>
+    <string name="delete">Effacer</string>
+    <string name="nothing">Risen</string>
+    <string name="mins15">15 Mins</string>
+    <string name="mins30">30 Mins</string>
+    <string name="hour1">1 Heure</string>
+    <string name="hour2">2 Heures</string>
+    <string name="hour15">1.5 Heures</string>
+    <string name="mins45">45 Mins</string>
+    <string name="startTime">Heure de début</string>
+    <string name="endTime">Heure de fin</string>
+    <string name="settings">Afficher les paramètres</string>
+    <string name="display">Style d\'affichag</string>
+
+    <string name="hintToEnterStart">Tap pour régler le temps de démarrage</string>
+    <string name="hintToEnterEnd">TAP pour régler le temps Fin</string>
+
+    <string name="alertTitle">Garder Assez D\'alerte</string>
+    <string name="alertContentStart">Ringer passe en mode silencieuxe</string>
+    <string name="alertContentEnd">Ringer changé au mode Normal</string>
+    <string name="notify">Notification</string>
+    <string name="notifyStart">Tout Début</string>
+    <string name="notifyEnd">Tout Fin</string>
+    <string name="notifyEndQuite">Avertissez</string>
+    <string name="quick">Vite</string>
+    <string name="schedule">Calendrier</string>
+    <string name="existingTab">Existant</string>
+    <string name="oneHr">1 hr</string>
+    <string name="hrs">Hrs</string>
+    <string name="mins">Mins</string>
+    <string name="secs">Secs</string>
+    <string name="quiteSet">Tout Set</string>
+    <string name="quiteExtended">Période assez prolongée</string>
+    <string name="dtlError">Détails pas entré</string>
+    <string name="invalid">Invalide</string>
+    <string name="invalidNumber">Numéro invalide</string>
+    <string-array name="weekDays">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </string-array>
+
+    <string-array name="shortWeekDays">
+        <item>Dim</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Jeu</item>
+        <item>Ven</item>
+        <item>Sam</item>
+    </string-array>
+
+    <string-array name="displayTheme">
+        <item>Le noir</item>
+        <item>Blanc</item>
+        <item>Rose</item>
+    </string-array>
+
+    <string-array name="amPM">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

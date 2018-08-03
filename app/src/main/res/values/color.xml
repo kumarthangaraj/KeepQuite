@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="oddRow">#ffffff</color>
+    <color name="evenRow">#fef2e8</color>
+    <color name="lightGreen">#a4c639</color>
+    <color name="black">#000000</color>
+    <color name="actionBarBackGround">#c6e0ff</color>
+    <color name="maroon">#A3297A</color>
+</resources>

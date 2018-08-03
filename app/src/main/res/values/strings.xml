@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Keep Quiet</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings </string>
+    <string name="from">Start</string>
+    <string name="colon">:</string>
+    <string name="to">To</string>
+    <string name="set">Set</string>
+    <string name="clear">Clear</string>
+    <string name="clearAll">Clear All</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="WeekDaysTitle">Days</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="existing">Existing Quiets</string>
+    <string name="recordEditorTitle">What do \'U\' want friend?</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="nothing">Nothing</string>
+    <string name="mins15">15 Mins</string>
+    <string name="mins30">30 Mins</string>
+    <string name="hour1">1 Hour</string>
+    <string name="hour2">2 Hours</string>
+    <string name="hour15">1.5 Hours</string>
+    <string name="mins45">45 Mins</string>
+    <string name="startTime">Start Time</string>
+    <string name="endTime">End Time</string>
+    <string name="settings">Display Settings</string>
+    <string name="display">Display Style</string>
+
+    <string name="hintToEnterStart">Tap to Set Start time</string>
+    <string name="hintToEnterEnd">Tap to Set End time</string>
+
+    <string name="alertTitle">Keep Quiet Alert</string>
+    <string name="alertContentStart">Ringer changed to Silent mode</string>
+    <string name="alertContentEnd">Ringer changed to Normal mode</string>
+    <string name="notify">Notification</string>
+    <string name="notifyStart">Quiet Start</string>
+    <string name="notifyEnd">Quiet End</string>
+    <string name="notifyEndQuite">Notify</string>
+    <string name="quick">Quick</string>
+    <string name="schedule">Schedule</string>
+    <string name="existingTab">Existing</string>
+    <string name="oneHr">1 hr</string>
+    <string name="hrs">Hrs</string>
+    <string name="mins">Mins</string>
+    <string name="secs">Secs</string>
+    <string name="quiteSet">Quiet Set</string>
+    <string name="quiteExtended">Quiet period extended</string>
+    <string name="dtlError">Details Not entered</string>
+    <string name="invalid">Invalid</string>
+    <string name="invalidNumber">Invalid Number</string>
+    <string-array name="weekDays">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="shortWeekDays">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+    <string-array name="displayTheme">
+        <item>Black</item>
+        <item>White</item>
+        <item>Pink</item>
+    </string-array>
+
+    <string-array name="amPM">
+        <item>AM</item>
+        <item>PM</item></string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

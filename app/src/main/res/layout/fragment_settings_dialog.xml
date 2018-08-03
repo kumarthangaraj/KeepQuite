@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:id="@+id/innerLayout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" android:id="@+id/themeTitle"
+        android:textStyle="bold" android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/display"
+        android:textSize="@dimen/abc_action_bar_content_inset_material" />
+    <Spinner
+        android:layout_width="120dp"
+        android:layout_height="63dp"
+        android:id="@+id/themeCode"
+        android:entries="@array/displayTheme"
+        android:layout_gravity="center"></Spinner>
+    </LinearLayout>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp" android:text="@string/notify"
+        android:textStyle="bold"
+        android:id="@+id/notifyLabel"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" android:text="@string/notifyStart"
+        android:layout_gravity="center" android:layout_weight="2"
+        android:id="@+id/notifyLabelStart"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/notifyStart"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp" android:text="@string/notifyEnd"
+            android:layout_gravity="center" android:layout_weight="2"
+            android:id="@+id/notifyLabelEnd"
+            android:textSize="16dp"
+            android:gravity="center_horizontal" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/notifyEnd"
+            android:layout_gravity="center_horizontal" android:layout_weight="0.92"
+            android:gravity="fill_horizontal" />
+    </LinearLayout>
+</LinearLayout>

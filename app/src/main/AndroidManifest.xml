@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.superio.keepquite" android:installLocation="internalOnly">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/keepquite1"
+        android:label="@string/app_name"
+        >
+        <activity
+            android:name="com.superio.keepquite.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.superio.keepquite.KeepQuiteSetter" android:enabled="true"></receiver>
+        <receiver android:name="com.superio.keepquite.KeepQuiteBootReceiver" android:label="Start KeepQuite Services" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.example.superio.BroadCast"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

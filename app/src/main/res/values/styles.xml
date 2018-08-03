@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BlackTheme" parent="Base.Widget.AppCompat.Light.ActionBar.TabBar">
+        <item name="android:alertDialogStyle">@style/customBlackDialog</item>
+    </style>
+        <!-- Customize your theme here. -->
+
+    <style name="WhiteTheme" parent="Base.Widget.AppCompat.Light.ActionBar.TabBar">
+        <!-- Customize your theme here. -->
+         <item name="android:textColor">#43a16f</item>
+        <item name="android:textColorPrimary">#43a16f</item>
+        <item name="android:textColorSecondary">#43a16f</item>
+        <item name="android:background">#eeeeee</item>
+        <item name="android:headerBackground">#E4E4E4</item>
+        <item name="android:listViewStyle">@style/awesomeListViewStyle</item>
+        <item name="android:textColorHint">#787878</item>
+        <item name="android:actionBarTabBarStyle">@style/tabCustomStyle</item>
+        <item name="android:checkboxStyle">@style/checkBoxCustomStyle</item>
+        <item name="android:alertDialogStyle">@style/customWhiteDialog</item>
+
+        <!-- test -->
+    </style>
+
+    <style name="PinkTheme" parent="Base.Widget.AppCompat.Light.ActionBar.TabBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:background">#EFBEFF</item>
+        <item name="android:headerBackground">#FF44A1</item>
+        <item name="android:listViewStyle">@style/awesomeListViewStyle</item>
+        <item name="android:textColorHint">#787878</item>
+        <item name="android:actionBarTabBarStyle">@style/tabCustomPinkStyle</item>
+        <item name="android:checkboxStyle">@style/checkBoxCustomPinkStyle</item>
+        <item name="android:alertDialogStyle">@style/customWhiteDialog</item>
+
+        <!-- test -->
+    </style>
+
+    <style name="awesomeListViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:divider">#800000</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <style name="tabCustomStyle" parent="@android:style/Widget.TabWidget">
+        <item name="android:background">#E4E4E4</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <style name="tabCustomPinkStyle" parent="@android:style/Widget.TabWidget">
+    <item name="android:background">#FF44A1</item>
+    <item name="android:dividerHeight">1px</item>
+    </style>
+
+<style name="checkBoxCustomStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">#43a16f</item>
+    </style>
+
+    <style name="checkBoxCustomPinkStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">#787878</item>
+    </style>
+
+    <style name="customWhiteDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#007D00</item>
+        <item name="android:textColorSecondary">#43a16f</item>
+        <item name="android:textColorAlertDialogListItem">#43a16f</item>
+    </style>
+
+    <style name="customBlackDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#000000</item>
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:textColor">#eeeeee</item>
+        <item name="android:textColorPrimary">#eeeeee</item>
+        <item name="android:textColorSecondary">#eeeeee</item>
+    </style>
+</resources>
